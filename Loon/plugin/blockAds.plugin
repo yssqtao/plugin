@@ -110,12 +110,6 @@ vihu_enable = switch,true,false,tag=知乎
 
 # >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
 
-# > 光大银行
-# hostname = mobile.cebbank.com, yghsh.cebbank.com
-^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList reject-200
-# > 光大银行 阳光惠生活
-^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg reject-200
-
 # > 工商银行
 # hostname = v.icbc.com.cn
 # 如开启可自行添加主机名
@@ -374,4 +368,4 @@ http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-p
 # MITM：中间人攻击，解密/跳过相关域名的内容，"-"开头为跳过
 # =====================================
 [MITM]
-hostname = gab.122.gov.cn,api.alipan.com, member.alipan.com,www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com, m.baidu.com, sofire.baidu.com,www.binance.info, www.yingwangtech.net, www.binance.com,app-gw.csdn.net, gw.csdn.net,res.xiaojukeji.com, common.diditaxi.com.cn, hd.xiaojukeji.com, freight.xiaojukeji.com, daijia.kuaidadi.com, ct.xiaojukeji.com, conf.diditaxi.com.cn,elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, nr-op.elemecdn.com,*.pangolin-sdk-toutiao.com, *.pangolin-sdk-toutiao.*, *.pstatp.com, *.pstatp.com.*, *.pglstatp-toutiao.com.*, *.pglstatp-toutiao.com, gurd.snssdk.com, gurd.snssdk.com.*, i-lq.snssdk.com, i-lq.snssdk.com.*,*default.ixigua.com,mobile.cebbank.com, yghsh.cebbank.com,v.icbc.com.cn,m*.amap.com, optimus-ads.amap.com,res.kfc.com.cn,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net,mea.meitudata.com, adui.tg.meitu.com,api.mcd.cn,midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com,alt-r.my.com, imgx.jampp.com,webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com,mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com,m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn,cloud.189.cn, zt-app.go189.cn,api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, zhuanlan.zhihu.com, link.zhihu.com
+hostname = gab.122.gov.cn,api.alipan.com, member.alipan.com,www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com, m.baidu.com, sofire.baidu.com,www.binance.info, www.yingwangtech.net, www.binance.com,app-gw.csdn.net, gw.csdn.net,res.xiaojukeji.com, common.diditaxi.com.cn, hd.xiaojukeji.com, freight.xiaojukeji.com, daijia.kuaidadi.com, ct.xiaojukeji.com, conf.diditaxi.com.cn,elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, nr-op.elemecdn.com,*.pangolin-sdk-toutiao.com, *.pangolin-sdk-toutiao.*, *.pstatp.com, *.pstatp.com.*, *.pglstatp-toutiao.com.*, *.pglstatp-toutiao.com, gurd.snssdk.com, gurd.snssdk.com.*, i-lq.snssdk.com, i-lq.snssdk.com.*,*default.ixigua.com,v.icbc.com.cn,m*.amap.com, optimus-ads.amap.com,res.kfc.com.cn,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net,mea.meitudata.com, adui.tg.meitu.com,api.mcd.cn,midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com,alt-r.my.com, imgx.jampp.com,webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com,mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com,m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn,cloud.189.cn, zt-app.go189.cn,api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, zhuanlan.zhihu.com, link.zhihu.com
